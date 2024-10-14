@@ -68,10 +68,6 @@ def pattern(n):
         
 pattern(5)
 
-
-
-
-
 # Pattern 3 
 # *****
 # *   *
