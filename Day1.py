@@ -95,3 +95,17 @@ def _pattern_(n):
 _pattern_(5)
 
 
+
+# Pattern 6
+# 12345
+# 1234
+# 123
+# 12
+# 1
+def _pattern_(n):
+    for i in range(n+1):
+        for j in range(n-i):
+            print(j+1,end="")
+        print()
+_pattern_(5)
+
